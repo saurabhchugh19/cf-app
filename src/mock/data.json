@@ -1,0 +1,8 @@
+{
+    "name": "Saurabh Chugh",
+    "email": "saurabh.chugh@telekom-digital.com",
+    "carrierSettings": [
+        {"id": "CARRIER_ID_1", "text": "Carrier 1 ID", "value": "12345"},
+        {"id": "CARRIER_ID_2", "text": "Carrier 2 ID", "value": "12345"}
+    ]
+}

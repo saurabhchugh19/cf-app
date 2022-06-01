@@ -5,3 +5,5 @@ export const Label = props => {
 
   return <label className={className}>{text}</label>;
 };
+
+export default Label;
