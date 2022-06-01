@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-export const Input = props => {
+const Input = props => {
   const {
-    inputType,
+    inputType = 'text',
     data,
     value = '',
     placeholder = '',
@@ -32,3 +32,5 @@ export const Input = props => {
     />
   );
 };
+
+export default Input;
