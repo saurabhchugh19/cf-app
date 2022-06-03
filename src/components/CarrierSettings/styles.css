@@ -1,0 +1,36 @@
+.carrier-setting-container {
+    flex-direction: column;
+}
+
+.carrier-settings-heading {
+    /* margin-left: 32px; */
+    margin-left: 4.4%;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.line-1 {
+    height: 0px;
+    margin-bottom: 3px;
+    border: 1px solid #BDBDBD;
+    transform: rotate(0.08deg);
+}
+
+/* This logic needs to be improved to pick up for 1st item rendered */
+/* .carrier-setting-item-first {
+    margin-top: 37px;
+} */
+
+.carrier-setting-container {
+    /* margin-top: 37px; */
+    /* margin-left: 49px; */
+    /* margin-left: 59.1%; */
+    margin-bottom: 45px;
+    /* margin-bottom: 12.6%; */
+}

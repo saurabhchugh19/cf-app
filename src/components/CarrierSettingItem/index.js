@@ -14,9 +14,21 @@ const CarrierSettingItem = props => {
   };
 
   return (
-    <div className='carrier-setting-item'>
-      <Label text={text} />
-      <Input data={id} value={value} placeholder={`Enter ${text}`} onChangeHandler={onCarrierSettingItemChange} />
+    <div className='carrier-setting-item-container'>
+      {/* <div> */}
+      <div className='text carrier-setting-item-label'>
+        <Label text={text} />
+      </div>
+      <div>
+        <Input
+          data={id}
+          value={value}
+          placeholder={`Enter ${text}`}
+          onChangeHandler={onCarrierSettingItemChange}
+          className='text carrier-setting-item-input'
+        />
+      </div>
+      {/* </div> */}
     </div>
   );
 };

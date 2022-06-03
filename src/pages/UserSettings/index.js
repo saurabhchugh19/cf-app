@@ -22,16 +22,37 @@ const UserSettings = () => {
 
   return (
     <div className='user-setting-container'>
-      <h2>User Settings</h2>
-      <div>
-        <Label text='Name' />
-        <Input value={name} placeholder='Enter Name' onChangeHandler={onNameChange} />
+      {/* <div className='header'> */}
+      <p className='user-setting-heading'>User Settings</p>
+      <p className='line-2' />
+      {/* </div> */}
+      <div className='user-setting-name'>
+        <div className='text'>
+          <Label text='Name' />
+        </div>
+        {/* <div> */}
+        <Input
+          value={name}
+          placeholder='Enter Name'
+          onChangeHandler={onNameChange}
+          className='user-settings-input text'
+        />
+        {/* </div> */}
       </div>
-      <div>
-        <Label text='Email' />
-        <Input value={email} placeholder='Enter Email' onChangeHandler={onEmailChange} />
+      <div className='user-setting-email'>
+        <div className='text'>
+          <Label text='Email' />
+        </div>
+        {/* <div> */}
+        <Input
+          value={email}
+          placeholder='Enter Email'
+          onChangeHandler={onEmailChange}
+          className='user-settings-input text'
+        />
+        {/* </div> */}
       </div>
-      <div>
+      <div className='carrier-settings'>
         <CarrierSettings data={carrierSettings} />
       </div>
     </div>

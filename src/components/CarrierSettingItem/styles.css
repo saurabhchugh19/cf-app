@@ -1,3 +1,17 @@
-.carrier-setting-item {
+.carrier-setting-item-container {
     flex-direction: column;
+}
+
+.carrier-setting-item-label {
+    margin-top: 34px;
+    margin-left: 6.7%;
+}
+
+.carrier-setting-item-input {
+    margin-left: 5.9%;
+    margin-top: 18px;
+    width: 84%;
+    /* padding-top: 23%;
+    padding-left: 4.3%;
+    padding-bottom: 36.5%; */
 }
