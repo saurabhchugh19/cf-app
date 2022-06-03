@@ -9,7 +9,7 @@ const CarrierSettings = props => {
     <div className='carrier-setting-container'>
       <p className='carrier-settings-heading'>Carrier Settings</p>
       <p className='line-1' />
-      <div className='carrier-setting-item-container'>
+      <div className='carrier-setting-container'>
         {data.map(item => {
           const { id } = item;
           return <CarrierSettingItem key={id} data={item} />;

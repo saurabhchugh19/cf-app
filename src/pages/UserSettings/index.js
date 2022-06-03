@@ -22,10 +22,12 @@ const UserSettings = () => {
 
   return (
     <div className='user-setting-container'>
+      {/* <div className='header'> */}
       <p className='user-setting-heading'>User Settings</p>
       <p className='line-2' />
-      <div>
-        <div className='name-label text'>
+      {/* </div> */}
+      <div className='user-setting-name'>
+        <div className='text'>
           <Label text='Name' />
         </div>
         {/* <div> */}
@@ -37,8 +39,8 @@ const UserSettings = () => {
         />
         {/* </div> */}
       </div>
-      <div>
-        <div className='email-label text'>
+      <div className='user-setting-email'>
+        <div className='text'>
           <Label text='Email' />
         </div>
         {/* <div> */}
