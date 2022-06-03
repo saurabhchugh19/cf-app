@@ -1,5 +1,24 @@
 .sidebar-container {
-    margin-top: 100px;
-    margin-left: 38px;
-    margin-right: 131;
+    width: 276px;
 }
+
+.sidebar-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.sidebar-heading {
+    font-weight: 600;
+    margin-top: 33px;
+    margin-left: 38px;
+    margin-bottom: 46px;
+}
+
+.sidebar-route {
+    font-weight: 400;
+    margin-left: 38px;
+}
+

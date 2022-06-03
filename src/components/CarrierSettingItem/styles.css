@@ -1,3 +1,11 @@
-.carrier-setting-item {
+.carrier-setting-item-container {
     flex-direction: column;
+}
+
+.carrier-setting-item {
+    margin-bottom: 34px;
+}
+
+.carrier-setting-input {
+    margin-top: 18px;
 }

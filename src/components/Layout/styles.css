@@ -1,9 +1,15 @@
 .layout-container {
     display: flex;
+    /* height: 100%; */
+    width: 100%;
 }
 
 .layout-sidebar {
     flex-direction: column;
     background: #1C1C1C;
     width: 276px;
+}
+
+.layout-component {
+    width: 100%;
 }

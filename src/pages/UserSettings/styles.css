@@ -1,3 +1,65 @@
 .user-setting-container {
     flex-direction: column;
 }
+
+.user-setting-heading {
+    margin-left: 114px;
+    margin-top: 27px;
+    margin-bottom: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+} */
+
+.line-2 {
+    height: 0px;
+    border: 1px solid #000000;
+    transform: rotate(0.05deg);
+}
+
+.name-label {
+    margin-top: 39px;
+    margin-left: 114px;
+}
+
+.user-settings-input {
+    margin-top: 15px;
+    margin-left: 114px;
+    background: #FFFFFF;
+    border: 1px solid #9E9E9E;
+    border-radius: 3px;
+    min-width: 611px;
+    /* min-height: 44px; */
+    padding-left: 19px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.email-label {
+    margin-top: 50px;
+    margin-left: 114px;
+}
+
+.carrier-settings {
+    margin-top: 62px;
+    margin-left: 114px;
+    margin-bottom: 263px;
+    background: #F7F7F7;
+    border: 1px solid #D7D7D7;
+    box-shadow: inset 0px 1px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    max-width: 727px;
+    max-height: 357px;
+}

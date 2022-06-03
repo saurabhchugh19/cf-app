@@ -14,7 +14,7 @@ const withLayout = (Component, sidebar = true, header = false, footer = false) =
             <Sidebar {...props} />
           </div>
         )}
-        <div>
+        <div className='layout-component'>
           {header && <Header {...props} />}
           <Component {...props} />
           {footer && <Footer {...props} />}

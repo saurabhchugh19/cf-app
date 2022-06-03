@@ -1,0 +1,27 @@
+.carrier-setting-container {
+    flex-direction: column;
+}
+
+.carrier-settings-heading {
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.line-1 {
+    height: 0px;
+    border: 1px solid #BDBDBD;
+    transform: rotate(0.08deg);
+}
+
+.carrier-setting-item-container {
+    margin-top: 37px;
+    margin-left: 49px;
+    margin-bottom: 45px;
+}
