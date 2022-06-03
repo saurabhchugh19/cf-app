@@ -1,16 +1,19 @@
 import React from 'react';
 import CarrierSettingItem from '../CarrierSettingItem';
+// import './styles.css';
 
 const CarrierSettings = props => {
   const { data = [] } = props;
 
   return (
     <>
-      <div>Carrier Settings</div>
-      {data.map(item => {
-        const { id } = item;
-        return <CarrierSettingItem key={id} data={item} />;
-      })}
+      <h3>Carrier Settings</h3>
+      <div>
+        {data.map(item => {
+          const { id } = item;
+          return <CarrierSettingItem key={id} data={item} />;
+        })}
+      </div>
     </>
   );
 };

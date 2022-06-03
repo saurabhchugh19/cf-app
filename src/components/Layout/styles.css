@@ -1,0 +1,9 @@
+.layout-container {
+    display: flex;
+}
+
+.layout-sidebar {
+    flex-direction: column;
+    background: #1C1C1C;
+    width: 276px;
+}

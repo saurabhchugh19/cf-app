@@ -4,6 +4,7 @@ import Label from '../../components/Label';
 import Input from '../../components/Input';
 import mockData from '../../mock/data.json';
 import CarrierSettings from '../../components/CarrierSettings';
+import './styles.css';
 
 const UserSettings = () => {
   const { name, email, carrierSettings } = mockData;
@@ -20,14 +21,20 @@ const UserSettings = () => {
   };
 
   return (
-    <>
-      <div>User Settings</div>
-      <Label text='Name' />
-      <Input value={name} placeholder='Enter Name' onChangeHandler={onNameChange} />
-      <Label text='Email' />
-      <Input value={email} placeholder='Enter Email' onChangeHandler={onEmailChange} />
-      <CarrierSettings data={carrierSettings} />
-    </>
+    <div className='user-setting-container'>
+      <h2>User Settings</h2>
+      <div>
+        <Label text='Name' />
+        <Input value={name} placeholder='Enter Name' onChangeHandler={onNameChange} />
+      </div>
+      <div>
+        <Label text='Email' />
+        <Input value={email} placeholder='Enter Email' onChangeHandler={onEmailChange} />
+      </div>
+      <div>
+        <CarrierSettings data={carrierSettings} />
+      </div>
+    </div>
   );
 };
 
